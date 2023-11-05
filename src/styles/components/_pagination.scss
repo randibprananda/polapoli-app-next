@@ -1,0 +1,7 @@
+.ant-pagination-item-active {
+  @apply border-primary;
+
+  a {
+    @apply text-primary;
+  }
+}

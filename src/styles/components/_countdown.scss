@@ -1,0 +1,19 @@
+.ant-statistic.countdown {
+  @apply flex flex-col justify-center items-center bg-white rounded-xl py-3 px-6 w-full h-full;
+
+  .ant-statistic-title {
+    @apply text-base font-semibold text-black;
+  }
+
+  .ant-statistic-content {
+    @apply flex flex-col justify-center items-center;
+
+    span.ant-statistic-content-value {
+      @apply text-rose text-3xl sm:text-lg md:text-xl lg:text-2xl xl:text-3xl font-medium tracking-widest ;
+    }
+
+    span.ant-statistic-content-suffix {
+      @apply text-sm text-grey1;
+    }
+  }
+}

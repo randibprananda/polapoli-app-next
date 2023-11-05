@@ -1,0 +1,37 @@
+.ant-modal {
+  &-content {
+    @apply rounded-xl;
+  }
+
+  &-header {
+    @apply rounded-t-xl border-b-0;
+  }
+}
+
+.ant-modal.galeri-modal {
+  .galeri-image {
+    @apply relative w-full;
+    min-width: 300px;
+    max-width: 700px;
+    height: 450px;
+  }
+  .ant-modal-content {
+    @apply rounded-none;
+
+    .ant-modal-close {
+      @apply bg-transparent;
+
+      &-x {
+        @apply h-9 w-9 rounded-full m-2 bg-white flex items-center justify-center opacity-40;
+      }
+    }
+  }
+
+  .ant-modal-header {
+    @apply rounded-t-xl border-b-0;
+  }
+
+  .ant-modal-body {
+    @apply p-0;
+  }
+}

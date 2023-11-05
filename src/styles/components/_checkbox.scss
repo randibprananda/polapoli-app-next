@@ -1,0 +1,7 @@
+.ant-checkbox-checked .ant-checkbox-inner {
+  @apply bg-primary border-primary;
+
+  span {
+    @apply font-medium;
+  }
+}

@@ -1,0 +1,15 @@
+.ant-card {
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.05);
+  @apply border-none rounded-sm;
+}
+
+.card-donation {
+  overflow: hidden !important;
+
+  &__image {
+    @apply relative;
+    width: 100% !important;
+    max-width: 300px !important;
+    height: 100% !important;
+  }
+}

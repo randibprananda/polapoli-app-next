@@ -1,0 +1,41 @@
+API wilayahmu semisal digae koyo nggone farizdot.id no piye tang ? dadi enek endpoint khusus ngge nge hit spesifik daerah, dadi:
+
+- endpoint: /wilayah/provinsi
+  method: GET
+  tujuan: menampilkan semua data provinsi
+  response: array of object
+
+- endpoint: /wilayah/provinsi/detail/{id_provinsi}
+  method: GET
+  tujuan: menampilkan detail provinsi berdasarkan id provinsi
+  response: object
+
+- endpoint: /wilayah/kota/{id_provinsi}
+  method: GET
+  tujuan: menampilkan data kota berdasarkan provinsi
+  response: array of object
+
+- endpoint: /wilayah/kota/detail/{id_kota}
+  method: GET
+  tujuan: menampilkan detail kota berdasarkan id kota
+  response: object
+
+- endpoint: /wilayah/kecamatan/{id_kota}
+  method: GET
+  tujuan: menampilkan data kecamatan berdasarkan kota
+  response: array of object
+
+- endpoint: /wilayah/kecamatan/detail/{id_kecamatan}
+  method: GET
+  tujuan: menampilkan detail kecamatan berdasarkan id kecamatan
+  response: object
+
+- endpoint: /wilayah/kelurahan/{id_kecamatan}
+  method: GET
+  tujuan: menampilkan data kelurahan berdasarkan id kecamatan
+  response: array of object
+
+- endpoint: /wilayah/kelurahan/detail/{id_kelurahan}
+  method: GET
+  tujuan: menampilkan detail kelurahan berdasarkan id kelurahan
+  response: object

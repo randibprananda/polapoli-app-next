@@ -1,0 +1,17 @@
+.ant-picker {
+  @apply border border-grey3 p-3;
+
+  &:hover,
+  &.ant-picker-focused {
+    @apply border-primary;
+  }
+
+  input {
+    @apply text-base;
+  }
+}
+
+.ant-picker-input > input:focus, 
+.ant-picker-input > input-focused {
+  @apply border-primary;
+}

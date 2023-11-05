@@ -1,0 +1,14 @@
+.ant-tabs-tab{
+  @apply hover:text-primary;
+
+  .ant-tabs-tab-btn {
+    @apply font-semibold text-grey1;
+  }
+
+  &.ant-tabs-tab-active {
+
+    .ant-tabs-tab-btn {
+      @apply text-primary;
+    }
+  }
+}

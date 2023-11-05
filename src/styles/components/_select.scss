@@ -1,0 +1,28 @@
+.ant-select-single:not(.ant-select-customize-input) {
+  &:hover {
+    .ant-select-selector {
+      @apply border-primary;
+    }
+  }
+
+  .ant-select-selector {
+    @apply flex justify-center items-center h-12 border border-grey3;
+     
+    .ant-select-selection-search,
+    .ant-select-selection-placeholder {
+      @apply p-3;
+    }
+
+    .ant-select-selection-search-input {
+      @apply h-auto;
+    }
+  }
+}
+
+.ant-select-focused:not(.ant-select-disabled) {
+  &.ant-select:not(.ant-select-customize-input) {
+    .ant-select-selector {
+      @apply border-primary;
+    }
+  }
+}

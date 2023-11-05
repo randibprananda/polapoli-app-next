@@ -1,0 +1,15 @@
+.faq {
+  .ant-collapse > .ant-collapse-item {
+    .ant-collapse-header {
+      @apply bg-white text-black text-lg font-semibold;
+  
+      .ant-collapse-arrow {
+        @apply text-base; 
+      }
+    }
+
+    .ant-collapse-content {
+      @apply text-base font-medium;
+    }
+  }
+}
